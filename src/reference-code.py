@@ -8,8 +8,7 @@ import argparse
 from bs4 import BeautifulSoup
 import requests
 
-#TARGET_URL = 'http://7-11net.omni7.jp/detail/043242'
-TARGET_URL = 'http://7-11net.omni7.jp/search/'
+TARGET_URL = 'https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B9%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0'
 
 def main(argv=sys.argv[1:]):
     argvs = sys.argv
